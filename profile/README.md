@@ -1,14 +1,10 @@
 # Julia Package Factory
 
-In June 2025, a colleague asked me:
+I have been involved in the development of several Julia packages through [my own research](https://ohno.github.io/) and my work with [JuliaFewBody](https://github.com/orgs/JuliaFewBody/repositories). I had been thinking about automating many of the steps involved in Julia package development. Then, in June 2025, a colleague asked me:
 
 > Hey. I had AI create a Julia package, but the documentation isn't deploying properly. How can I fix it?
 
-That question motivated me to develop [PkgFactory.jl](https://github.com/JuliaPackageFactory/PkgFactory.jl).
-
-## Overview
-
-PkgFactory.jl automates the process from creating a repository to deploying package infrastructure. There's no need to set up deployment keys or manually configure repository settings. See the [PkgFactory.jl documentation](https://juliapackagefactory.github.io/PkgFactory.jl/) to get started.
+That question motivated me to develop [PkgFactory.jl](https://github.com/JuliaPackageFactory/PkgFactory.jl). PkgFactory.jl automates the process from creating a repository to deploying package infrastructure. There's no need to set up deployment keys or manually configure repository settings. See the [PkgFactory.jl documentation](https://juliapackagefactory.github.io/PkgFactory.jl/) to get started.
 
 ## Templates
 
@@ -30,6 +26,6 @@ PkgFactory.jl automates the process from creating a repository to deploying pack
 - **Web UI** — create and configure packages from a browser
 - **MCP** — create packages from AI applications
 
-## About me
+## Workflows
 
-I have been involved in the development of several Julia packages through [my own research](https://ohno.github.io/) and my work with [JuliaFewBody](https://github.com/orgs/JuliaFewBody/repositories). Guides to Julia package development include [How to develop a Julia package](https://julialang.org/contribute/developing_package/), [Modern Julia Workflows — Sharing your code](https://modernjuliaworkflows.org/sharing/), [Pkg.jl — Creating Packages](https://pkgdocs.julialang.org/v1/creating-packages/), and [Julia — Workflow Tips](https://docs.julialang.org/en/v1/manual/workflow-tips/). In Japanese, additional information can be found on [Qiita](https://qiita.com/search?q=Julia+%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8) and [Zenn](https://zenn.dev/search?q=Julia%2520%25E3%2583%2591%25E3%2583%2583%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25B8&mode=semantic). These resources have been extremely useful for developing Julia packages, but the process still involves many manual steps. Shouldn't we automate them?
+Guides to Julia package development include [How to develop a Julia package](https://julialang.org/contribute/developing_package/), [Modern Julia Workflows — Sharing your code](https://modernjuliaworkflows.org/sharing/), [Pkg.jl — Creating Packages](https://pkgdocs.julialang.org/v1/creating-packages/), and [Julia — Workflow Tips](https://docs.julialang.org/en/v1/manual/workflow-tips/). In Japanese, additional information can be found on [Qiita](https://qiita.com/search?q=Julia+%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8) and [Zenn](https://zenn.dev/search?q=Julia%2520%25E3%2583%2591%25E3%2583%2583%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25B8&mode=semantic).
