@@ -4,11 +4,11 @@ I have been involved in the development of several Julia packages through [my ow
 
 > Hey. I had AI create a Julia package, but the documentation isn't deploying properly. How can I fix it?
 
-That question motivated me to develop [PkgFactory.jl](https://github.com/JuliaPackageFactory/PkgFactory.jl). PkgFactory.jl automates the process from creating a repository to deploying package infrastructure.
-
 ## Usage
 
-PkgFactory.jl can be used through **CLI**, **Web UI** (local, hosted), and **MCP** (stdio, Streamable HTTP). The easiest way is to access and use this website: https://pkgfactory-web.ohnolab.workers.dev/
+Simply provide basic information such as the package name and GitHub username, and PkgFactory.jl automatically creates the repository and sets up the package infrastructure. PkgFactory.jl can be used through several interfaces, including **CLI**, **Web UI** (local or hosted), and **MCP** (stdio or Streamable HTTP). The easiest way to get started is with the hosted Web UI:
+
+https://pkgfactory-web.ohnolab.workers.dev/
 
 ## Templates
 
