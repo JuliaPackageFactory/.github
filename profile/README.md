@@ -6,15 +6,9 @@ I have been involved in the development of several Julia packages through [my ow
 
 That question motivated me to develop [PkgFactory.jl](https://github.com/JuliaPackageFactory/PkgFactory.jl). PkgFactory.jl automates the process from creating a repository to deploying package infrastructure.
 
-## Interfaces
+## Usage
 
-PkgFactory.jl can be used through:
-
-- **CLI** (local) — create packages from the terminal
-- **Web UI** (local & [hosted](https://pkgfactory-web.ohnolab.workers.dev/)) — create and configure packages from a browser
-- **MCP** (stdio & Streamable HTTP) — create packages from AI applications
-
-The easiest way is to access and use this website: https://pkgfactory-web.ohnolab.workers.dev/
+PkgFactory.jl can be used through **CLI**, **Web UI** (local, hosted), and **MCP** (stdio, Streamable HTTP). The easiest way is to access and use this website: https://pkgfactory-web.ohnolab.workers.dev/
 
 ## Templates
 
