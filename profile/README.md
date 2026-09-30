@@ -8,7 +8,7 @@ I have been involved in the development of several Julia packages through [my ow
 
 Simply provide basic information such as the package name and GitHub username, and PkgFactory.jl automatically creates the repository and sets up the package infrastructure. PkgFactory.jl can be used through several interfaces, including **CLI**, **Web UI** (local or hosted), and **MCP** (stdio or Streamable HTTP). The easiest way to get started is with the hosted Web UI:
 
-https://pkgfactory-web.ohnolab.workers.dev/
+https://pkgfactory-staging.ohnolab.workers.dev/
 
 ## Templates
 
