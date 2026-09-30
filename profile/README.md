@@ -12,14 +12,14 @@ https://pkgfactory-staging.ohnolab.workers.dev/
 
 ## Templates
 
-PkgFactory.jl currently provides [three templates](https://github.com/JuliaPackageFactory/PkgFactory.jl/tree/main/templates) with different levels of functionality. You can see examples automatically generated from these templates in the following repositories:
+PkgFactory.jl currently provides [three templates](https://github.com/JuliaPackageFactory/PkgFactory.ts/tree/main/packages/pkgfactory/templates) with different levels of functionality. You can see examples automatically generated from these templates in the following repositories:
 
 | Template                                                                          | Purpose                                                                    |
 | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [TemplateMinimum.jl](https://github.com/JuliaPackageFactory/TemplateMinimum.jl)   | Minimal Julia package setup                                                |
-| [TemplateSimple.jl](https://github.com/JuliaPackageFactory/TemplateSimple.jl)     | Standard package setup with documentation and CI                           |
-| [TemplateAllInOne.jl](https://github.com/JuliaPackageFactory/TemplateAllInOne.jl) | Full-featured package setup with development and quality-assurance tooling |
+| [TestMinimum.jl](https://github.com/JuliaPackageFactory/TestMinimum.jl)   | Minimal Julia package setup                                                |
+| [TestSimple.jl](https://github.com/JuliaPackageFactory/TestSimple.jl)     | Standard package setup with documentation and CI                           |
+| [TestAllInOne.jl](https://github.com/JuliaPackageFactory/TestAllInOne.jl) | Full-featured package setup with development and quality-assurance tooling |
 
 ## Feedback
 
-Please share your feedback in [GitHub Discussions](https://github.com/JuliaPackageFactory/PkgFactory.jl/discussions). If you've used PkgFactory.jl to create a package, I'd love to see it—please share a link there as well.
+Please share your feedback in [GitHub Discussions](https://github.com/JuliaPackageFactory/PkgFactory.ts/discussions). If you've used PkgFactory.jl to create a package, I'd love to see it—please share a link there as well.
