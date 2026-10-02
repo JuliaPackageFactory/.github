@@ -1,6 +1,6 @@
 # Julia Package Factory
 
-I have been involved in the development of several Julia packages through [my own research](https://ohno.github.io/) and my work with [JuliaFewBody](https://github.com/orgs/JuliaFewBody/repositories). Working on these packages meant repeating many of the same setup steps, so I had been thinking about automating them. Then, in June 2025, a colleague asked me:
+I have been involved in the development of several Julia packages through [my own research](https://ohno.github.io/) and my work with [JuliaFewBody](https://github.com/orgs/JuliaFewBody/repositories). Working on these packages meant repeating many of the same setup steps, which motivated me to automate them. Then, in June 2025, a question from a colleague prompted me to start this project:
 
 > Hey. I had AI create a Julia package, but the documentation isn't deploying properly. How can I fix it?
 
@@ -19,6 +19,17 @@ PkgFactory.ts currently provides [three templates](https://github.com/JuliaPacka
 | `Minimum`    | [ExampleMinimum.jl](https://github.com/JuliaPackageFactory/ExampleMinimum.jl)   | Minimal Julia package setup                                                |
 | `Simple`     | [ExampleSimple.jl](https://github.com/JuliaPackageFactory/ExampleSimple.jl)     | Standard package setup with documentation and CI                           |
 | `All-in-One` | [ExampleAllInOne.jl](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl) | Full-featured package setup with development and quality-assurance tooling |
+
+## Development History
+
+This project started as [@ohno](https://github.com/ohno)'s repository, but has undergone several major specification changes:
+
+| Period | Development Approach and Architecture |
+|---|---|
+| 2025-10-30 – 2026-08-03 | Developed PkgStarter.jl primarily using Jupyter Notebook and Cursor. Established package templates and GitHub Actions workflows, and prototyped GitHub API integration and authentication using GitHub OAuth Apps. Renamed the project to PkgFactory.jl on 2026-02-28. |
+| 2026-08-04 – 2026-09-24 | Expanded AI-assisted development with Codex. Implemented a web UI, introduced end-to-end (E2E) tests, and developed PkgFactoryMCP.jl as a standalone package on 2026-09-07. |
+| 2026-09-25 – 2026-09-28 | Integrated PkgFactoryMCP.jl into the main repository. Adopted a shared core library with separate applications for the CLI, web UI (local and hosted), and MCP server (local and hosted). Introduced hosting on Cloudflare Containers. |
+| 2026-09-29 – Present | Moved primary development to PkgFactory.ts. Adopted Cloudflare Workers for hosting, added Jev-powered recommendations, and launched the service in production. |
 
 ## Feedback
 
