@@ -1,5 +1,7 @@
 # Julia Package Factory
 
+<img width="2172" height="724" alt="hero" src="https://github.com/user-attachments/assets/eec1bec9-b372-4a48-9b91-37b8fb113b48" />
+
 I have been involved in the development of several Julia packages through [my own research](https://ohno.github.io/) and my work with [JuliaFewBody](https://github.com/orgs/JuliaFewBody/repositories). Working on these packages meant repeating many of the same setup steps, which motivated me to automate them. Then, in June 2025, a question from a colleague prompted me to start this project:
 
 > Hey. I had AI create a Julia package, but the documentation isn't deploying properly. How can I fix it?
