@@ -1,6 +1,6 @@
-# Julia Package Factory
+<img width="2171" height="724" alt="Julia Package Factory" src="https://github.com/user-attachments/assets/6c4f6221-433f-49dd-b07a-b21de267b596" />
 
-<img width="2171" height="724" alt="hero" src="https://github.com/user-attachments/assets/6c4f6221-433f-49dd-b07a-b21de267b596" />
+## What made me start this project?
 
 I have been involved in the development of several (more than 10, by hand) Julia packages through [my own research](https://ohno.github.io/) and my work with [JuliaFewBody](https://github.com/orgs/JuliaFewBody/repositories). Working on these packages meant repeating many of the same setup steps, which motivated me to automate them. Then, in June 2025, a question from a colleague prompted me to start this project:
 
