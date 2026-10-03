@@ -10,7 +10,7 @@ I have been involved in the development of several (more than 10, by hand) Julia
 
 Simply provide basic information such as the package name and GitHub username, and [PkgFactory.ts](https://github.com/JuliaPackageFactory/PkgFactory.ts) automatically creates the repository and sets up the package infrastructure. PkgFactory.ts can be used through several interfaces, including **CLI**, **Web UI** (local or hosted), and **MCP** (stdio or Streamable HTTP). The easiest way to get started is with the hosted Web UI:
 
-https://pkgfactory-staging.ohnolab.workers.dev/
+https://pkgfactory.ohnolab.workers.dev/
 
 ## Templates
 
