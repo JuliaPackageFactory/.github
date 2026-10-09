@@ -35,4 +35,4 @@ This project started as [@ohno](https://github.com/ohno)'s repository, but has u
 
 ## Feedback
 
-Please share your feedback in [GitHub Discussions](https://github.com/JuliaPackageFactory/PkgFactory.ts/discussions). If you've used PkgFactory.jl to create a package, I'd love to see it—please share a link there as well.
+Please share your feedback in [GitHub Discussions](https://github.com/JuliaPackageFactory/PkgFactory.ts/discussions). You can find Julia Package Factory products in the [juliapackagefactory](https://github.com/topics/juliapackagefactory) topic.
