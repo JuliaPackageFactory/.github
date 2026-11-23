@@ -1,4 +1,4 @@
-<img width="2171" height="724" alt="Julia Package Factory" src="https://github.com/user-attachments/assets/6c4f6221-433f-49dd-b07a-b21de267b596" />
+[<img width="2171" height="724" alt="Julia Package Factory" src="https://github.com/user-attachments/assets/6c4f6221-433f-49dd-b07a-b21de267b596" />](https://pkgfactory.ohnolab.workers.dev/)
 
 ## What made me start this project?
 
