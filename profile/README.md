@@ -14,11 +14,12 @@ https://pkgfactory.ohnolab.workers.dev/
 
 ## Templates
 
-PkgFactory.ts currently provides [three templates](https://github.com/JuliaPackageFactory/PkgFactory.ts/tree/main/packages/pkgfactory/templates) with different levels of functionality. You can see examples automatically generated from these templates in the following repositories:
+PkgFactory.ts currently provides [four templates](https://github.com/JuliaPackageFactory/PkgFactory.ts/tree/main/packages/pkgfactory/templates) with different levels of functionality. You can see examples automatically generated from these templates in the following repositories:
 
 | Template     | Example                                                                         | Purpose                                                                    |
 | ------------ | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | `Minimum`    | [ExampleMinimum.jl](https://github.com/JuliaPackageFactory/ExampleMinimum.jl)   | Minimal Julia package setup                                                |
+| `Agentic`    | [ExampleAgentic.jl](https://github.com/JuliaPackageFactory/ExampleAgentic.jl)   | Agent-ready package setup with quality checks and AGENTS.md                |
 | `Simple`     | [ExampleSimple.jl](https://github.com/JuliaPackageFactory/ExampleSimple.jl)     | Standard package setup with documentation and CI                           |
 | `All-in-One` | [ExampleAllInOne.jl](https://github.com/JuliaPackageFactory/ExampleAllInOne.jl) | Full-featured package setup with development and quality-assurance tooling |
 
