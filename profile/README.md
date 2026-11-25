@@ -14,7 +14,7 @@ https://pkgfactory.ohnolab.workers.dev/
 
 ## Templates
 
-PkgFactory.ts currently provides [four templates](https://github.com/JuliaPackageFactory/PkgFactory.ts/tree/main/packages/pkgfactory/templates) with different levels of functionality. You can see examples automatically generated from these templates in the following repositories:
+PkgFactory.ts currently provides [four templates](https://github.com/JuliaPackageFactory/PkgFactory.ts/tree/main/templates) with different levels of functionality. You can see examples automatically generated from these templates in the following repositories:
 
 | Template     | Example                                                                         | Purpose                                                                    |
 | ------------ | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
